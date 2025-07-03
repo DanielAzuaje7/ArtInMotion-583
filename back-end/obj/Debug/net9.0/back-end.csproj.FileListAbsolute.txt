@@ -1,0 +1,506 @@
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets\msbuild.back-end.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets\msbuild.back-end.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets\msbuild.build.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto back\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\aepb2\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\danie\Downloads\Proyecto\proyecto (2)\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\proyecto\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\proyecto con guardar\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\danie\Downloads\Proyecto\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets\msbuild.back-end.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets\msbuild.back-end.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets\msbuild.build.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\Rentek\OneDrive\Escritorio\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\Paola De Sousa\Downloads\proyecto fino\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\Paola De Sousa\Downloads\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\plantilla.json
+C:\Users\danie\Downloads\Proyecto\proyecto regresa catalogo (2)\proyecto regresa catalogo\proyecto fino\proyecto\back-end\bin\Debug\net9.0\usuarios.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\plantilla.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\usuarios.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets\msbuild.back-end.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets\msbuild.back-end.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets\msbuild.build.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.back-end.props
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Datos\plantilla.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Datos\usuarios.json
+C:\Users\Rentek\OneDrive\Escritorio\localstorage listo\back-end\bin\Debug\net9.0\Datos\Dibujo\dibujos.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Datos\usuarios.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Datos\Dibujo\dibujos.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Datos\plantilla.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\New\OneDrive\Documentos\docs\UCAB\6to Semestre\proyecto software\versione\localstorage listo2\localstorage listo\back-end\obj\Debug\net9.0\ref\back-end.dll

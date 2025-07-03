@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/resources/rueda-de-color.png" type="image/png" size="16x16 32x32 64x64"/> 
+    <title>Art in Motion</title>
+    <link rel="stylesheet" href="dibujo.css">
+    <script type="module" src="dibujo.js"></script>
+</head>
+<body>
+ <header id="header">
+    <img id="logo"src="/resources/rueda-de-color.png">
+    <h2 id="titulo1">Art in Motion</h2>
+  </header>
+    <section id="app-container">
+        <header id="header">
+            <button id="save-btn">Guardar dibujo</button>
+          <!--  <button id="delete-btn">Eliminar dibujo</button>-->
+            <input type="range" id="line-width-slider" min="1" max="20" value="3">
+            <label for="line-width-slider">Grosor</label>
+            <input type="color" id="color-picker" value="#000000">
+            <label for="color-picker">Color</label>
+
+        </header>
+        <aside>
+            <nav>
+                <button class="active" id="draw-btn" title="Pincel"><img src="/resources/pencil.png" alt=""></button>
+                <button id="eraser-btn" title="Borrador"><img src="/resources/eraser.png" alt=""></button>
+                <button id="rectangle-btn" title="Rectangulo"><img src="/resources/rectangle.png" alt=""></button>
+                <button id="ellipse-btn" title="Elipse"><img src="/resources/circle.png" alt=""></button>
+            </nav>
+        </aside>
+        <main>
+            <canvas id="canvas" width="1000" height="576"></canvas>
+        </main>
