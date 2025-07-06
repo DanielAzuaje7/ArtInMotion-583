@@ -63,12 +63,12 @@ public class UsuariosController : ControllerBase
         {
             return BadRequest(new { mensaje = "Faltan datos de login" });
         }
-    
+
         string email = emailElement.GetString() ?? "";
         string contrasena = contrasenaElement.GetString() ?? "";
-    
+
         List<Usuario> usuarios = new List<Usuario>();
-    
+
         // Leer el archivo de usuarios
         if (System.IO.File.Exists(rutaUsuarios))
         {
@@ -90,17 +90,17 @@ public class UsuariosController : ControllerBase
                 }
             }
         }
-    
+
         // Buscar usuario por email (ignorando mayúsculas/minúsculas)
         var usuario = usuarios.FirstOrDefault(u =>
             u.Email.Trim().ToLower() == email.Trim().ToLower()
         );
-    
+
         if (usuario == null)
         {
             return BadRequest(new { mensaje = "userNotFound" });
         }
-    
+
         // Comparar contraseñas
         if (usuario.Contrasena == contrasena)
         {
@@ -112,7 +112,7 @@ public class UsuariosController : ControllerBase
         }
     }
 
-    
+
     [HttpPost("search")]
     public IActionResult SearchUser([FromBody] JsonElement login)
     {
@@ -122,12 +122,12 @@ public class UsuariosController : ControllerBase
         {
             return BadRequest(new { mensaje = "Faltan datos de login" });
         }
-    
+
         string email = emailElement.GetString() ?? "";
         string contrasena = contrasenaElement.GetString() ?? "";
-    
+
         List<Usuario> usuarios = new List<Usuario>();
-    
+
         // Leer el archivo de usuarios
         if (System.IO.File.Exists(rutaUsuarios))
         {
@@ -149,18 +149,18 @@ public class UsuariosController : ControllerBase
                 }
             }
         }
-    
+
         // Buscar usuario por email (ignorando mayúsculas/minúsculas)
         var usuario = usuarios.FirstOrDefault(u =>
             u.Email.Trim().ToLower() == email.Trim().ToLower()
         );
-    
+
         if (usuario == null)
         {
             // Si no existe, retorna mensaje de usuario no encontrado
             return BadRequest(new { mensaje = "userNotFound" });
         }
-    
+
         // Comparar contraseñas
         if (usuario.Contrasena == contrasena)
         {
@@ -172,6 +172,58 @@ public class UsuariosController : ControllerBase
             return BadRequest(new { mensaje = "incorrectPassword" });
         }
     }
+    
+    [HttpPost("actualizar")]
+public IActionResult ActualizarUsuario([FromBody] Usuario usuario)
+{
+    List<Usuario> usuarios = new List<Usuario>();
+
+    // Leer todos los usuarios del archivo
+    if (System.IO.File.Exists(rutaUsuarios))
+    {
+        var lineas = System.IO.File.ReadAllLines(rutaUsuarios);
+        foreach (var linea in lineas)
+        {
+            if (!string.IsNullOrWhiteSpace(linea))
+            {
+                try
+                {
+                    var u = JsonSerializer.Deserialize<Usuario>(linea);
+                    if (u != null)
+                        usuarios.Add(u);
+                }
+                catch
+                {
+                    // Ignora líneas mal formateadas
+                }
+            }
+        }
+    }
+
+    // Buscar el usuario por Uuid
+    var usuarioExistente = usuarios.FirstOrDefault(u => u.Uuid == usuario.Uuid);
+
+    if (usuarioExistente == null)
+    {
+        return NotFound(new { mensaje = "userNotFound" });
+    }
+
+    // Actualizar los campos del usuario existente
+    usuarioExistente.Nombre = usuario.Nombre;
+    usuarioExistente.Email = usuario.Email;
+    usuarioExistente.FechaNacimiento = usuario.FechaNacimiento;
+    usuarioExistente.Contrasena = usuario.Contrasena;
+    // Si tienes otros campos, agrégalos aquí
+
+    // Sobrescribir el archivo con la lista actualizada
+    var lineasActualizadas = usuarios
+        .Select(u => JsonSerializer.Serialize(u))
+        .ToArray();
+
+    System.IO.File.WriteAllLines(rutaUsuarios, lineasActualizadas);
+
+    return Ok(new { mensaje = "userSuccessfullyUpdated" });
+}
     
 }
 

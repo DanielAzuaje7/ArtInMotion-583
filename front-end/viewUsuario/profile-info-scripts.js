@@ -59,10 +59,10 @@ function llenarHtmlConInfoUsuario (usuario){
   let fechaNacB = document.getElementById('fecha-nac-b');
   let passwordB = document.getElementById('password-b');
 
-  nombreB.innerHTML = `  ${usuario.nombre}`;
-  emailB.innerHTML = `  ${usuario.email}`;
-  fechaNacB.innerHTML = `  ${usuario.fechaNacimiento}`;
-  passwordB.innerHTML = `  ${usuario.contrasena}`;
+  nombreB.innerHTML = `${usuario.nombre}`;
+  emailB.innerHTML = `${usuario.email}`;
+  fechaNacB.innerHTML = `${usuario.fechaNacimiento}`;
+  passwordB.innerHTML = `${usuario.contrasena}`;
 }
 
 document.getElementById("volver-dibujo-btn").addEventListener("click", () => {
@@ -103,4 +103,97 @@ document.getElementById("cerrar-sesion-btn").addEventListener("click", () => {
   window.location.href = "http://localhost:5289/front-end/viewCatalogo/index.html";
 });
 
+function fetchActualizarUsuario(usuarioParaActualizar){
+  fetch('http://localhost:5289/api/usuarios/actualizar', { // Cambia la URL según tu servidor
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(usuarioParaActualizar)
+      })
+        .then(response => response.json())
+        .then(data => {
+          console.log('Respuesta del servidor:', data.mensaje);
+          //handleMessage(data.mensaje);
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });    
+}
+
+function toInputDateFormat(fechaTexto) {
+  // Convierte de DD/MM/YYYY a YYYY-MM-DD
+  const partes = fechaTexto.split('/');
+  if (partes.length === 3) {
+    return `${partes[2]}-${partes[1].padStart(2, '0')}-${partes[0].padStart(2, '0')}`;
+  }
+  return fechaTexto; // Si ya está en formato correcto
+}
+
+function toDisplayDateFormat(fechaInput) {
+  // Convierte de YYYY-MM-DD a DD/MM/YYYY
+  const partes = fechaInput.split('-');
+  if (partes.length === 3) {
+    return `${partes[2].padStart(2, '0')}/${partes[1].padStart(2, '0')}/${partes[0]}`;
+  }
+  return fechaInput;
+}
+
+const fields = [
+  { id: "nombre-b", type: "text" },
+  { id: "email-b", type: "email" },
+  { id: "fecha-nac-b", type: "date" },
+  { id: "password-b", type: "password" }
+];
+
+let isEditing = false;
+let updatedEmail = document.getElementById('email-b');
+document.getElementById("editar-perfil-btn").addEventListener("click", function() {
+  if (!isEditing) {
+    // Cambiar a modo edición
+    fields.forEach(field => {
+      const b = document.getElementById(field.id);
+      let value = b.textContent;
+      const input = document.createElement("input");
+      input.type = field.type;
+      if (field.type === "date") {
+        console.log("entro al date!");
+        console.log(value);
+        //console.log(toDisplayDateFormat(value));
+        input.value = value;
+        console.log(input.value);
+      } else {
+        console.log("normal");
+        input.value = value;
+      }
+      input.id = field.id + "-input";
+      b.replaceWith(input);
+});
+    this.textContent = "Guardar";
+    isEditing = true;
+  } else {
+    // Guardar cambios y volver a modo visualización
+    fields.forEach(field => {
+    const input = document.getElementById(field.id + "-input");
+    const b = document.createElement("b");
+    b.className = "b-fillable";
+    b.id = field.id;
+    let value = input.value;
+    if (field.type === "date") {
+      value = toInputDateFormat(value);
+    }
+    b.textContent = value;
+    input.replaceWith(b);
+    });
+    this.textContent = "Editar Perfil";
+    isEditing = false;
+    
+    const usuarioActualizadoMsg = { Email: document.getElementById('email-b').textContent, Nombre: document.getElementById('nombre-b').textContent, FechaNacimiento: document.getElementById('fecha-nac-b').textContent, Contrasena: document.getElementById('password-b').textContent, Uuid: usuario.uuid };
+    const usuarioActualizadoJs = { email: document.getElementById('email-b').textContent, nombre: document.getElementById('nombre-b').textContent, fechaNacimiento: document.getElementById('fecha-nac-b').textContent, contrasena: document.getElementById('password-b').textContent, uuid: usuario.uuid };
+    console.log(usuarioActualizadoMsg);
+    fetchActualizarUsuario(usuarioActualizadoMsg);
+    localStorage.setItem('usuarioActivo', JSON.stringify(usuarioActualizadoJs));  
+    console.log(usuarioActivo);
+  }
+});
 

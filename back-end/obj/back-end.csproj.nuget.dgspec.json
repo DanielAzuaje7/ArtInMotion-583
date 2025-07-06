@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\OneDrive\\Documentos\\Proyecto IS\\ArtInMotion\\back-end\\back-end.csproj": {}
+    "C:\\Users\\New\\OneDrive\\Documentos\\docs\\UCAB\\6to Semestre\\proyecto software\\art-in-motion-repo\\1.2.2\\ArtInMotion-583\\back-end\\back-end.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\OneDrive\\Documentos\\Proyecto IS\\ArtInMotion\\back-end\\back-end.csproj": {
+    "C:\\Users\\New\\OneDrive\\Documentos\\docs\\UCAB\\6to Semestre\\proyecto software\\art-in-motion-repo\\1.2.2\\ArtInMotion-583\\back-end\\back-end.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\Proyecto IS\\ArtInMotion\\back-end\\back-end.csproj",
+        "projectUniqueName": "C:\\Users\\New\\OneDrive\\Documentos\\docs\\UCAB\\6to Semestre\\proyecto software\\art-in-motion-repo\\1.2.2\\ArtInMotion-583\\back-end\\back-end.csproj",
         "projectName": "back-end",
-        "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\Proyecto IS\\ArtInMotion\\back-end\\back-end.csproj",
-        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\Proyecto IS\\ArtInMotion\\back-end\\obj\\",
+        "projectPath": "C:\\Users\\New\\OneDrive\\Documentos\\docs\\UCAB\\6to Semestre\\proyecto software\\art-in-motion-repo\\1.2.2\\ArtInMotion-583\\back-end\\back-end.csproj",
+        "packagesPath": "C:\\Users\\New\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\New\\OneDrive\\Documentos\\docs\\UCAB\\6to Semestre\\proyecto software\\art-in-motion-repo\\1.2.2\\ArtInMotion-583\\back-end\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\New\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"

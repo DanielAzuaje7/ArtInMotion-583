@@ -99,6 +99,7 @@ section div p{
 }
 .b-fillable{
   background-color:none;
+  padding-left: 4px;
 }
 
 form ul li{
