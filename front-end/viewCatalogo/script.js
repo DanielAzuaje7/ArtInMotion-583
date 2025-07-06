@@ -138,6 +138,13 @@ function descargarCreacion(url, formato, nombreDescarga) {
         canvas.width = img.naturalWidth;
         canvas.height = img.naturalHeight;
         const ctx = canvas.getContext('2d');
+
+        // Fondo blanco solo para JPG
+        if (formato === 'jpg' || formato === 'jpeg') {
+            ctx.fillStyle = "#fff";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+        }
+        // Dibuja la imagen encima
         ctx.drawImage(img, 0, 0);
 
         let mime = 'image/png';
