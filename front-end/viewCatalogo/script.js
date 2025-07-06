@@ -47,6 +47,53 @@ function cargarCatalogo() {
         });
 }
 
+// --- Subida de nueva plantilla ---
+document.addEventListener('DOMContentLoaded', function() {
+    const btnAgregar = document.getElementById('btnAgregarPlantilla');
+    const inputPlantilla = document.getElementById('inputPlantilla');
+
+    if (btnAgregar && inputPlantilla) {
+        btnAgregar.addEventListener('click', function() {
+            inputPlantilla.click();
+        });
+
+        inputPlantilla.addEventListener('change', function(event) {
+            const archivo = event.target.files[0];
+            if (!archivo) return;
+
+            // Validación opcional en el frontend (tipo/tamaño)
+            if (!archivo.type.startsWith('image/')) {
+                alert('Solo puedes subir imágenes.');
+                return;
+            }
+            if (archivo.size > 5 * 1024 * 1024) { // 5MB máximo, puedes ajustar
+                alert('La imagen es demasiado grande (máx 5MB).');
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('archivo', archivo);
+
+            fetch('http://localhost:5289/api/catalogo/subir', {
+                method: 'POST',
+                body: formData
+            })
+            .then(resp => {
+                if (!resp.ok) throw new Error('Error al subir la imagen');
+                return resp.json();
+            })
+            .then(data => {
+                alert('¡Plantilla agregada correctamente!');
+                cargarCatalogo(); // Recarga el catálogo para mostrar la nueva imagen
+                inputPlantilla.value = ""; // Limpia el input
+            })
+            .catch(err => {
+                alert('Error al subir la plantilla: ' + err.message);
+            });
+        });
+    }
+});
+
 // --- Creaciones (Plantillas + Dibujos) ---
 function cargarCreaciones() {
     const gridCreaciones = document.getElementById('grid-creaciones');
