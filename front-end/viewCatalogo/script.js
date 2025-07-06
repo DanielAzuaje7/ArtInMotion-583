@@ -15,6 +15,9 @@ if (usuarioActivo && usuarioActivo !== "undefined") {
     console.log("No hay usuario en sesión");
 }
 
+
+
+
 // --- Catálogo de Plantillas ---
 function cargarCatalogo() {
     const catalogo = document.getElementById('grid-plantillas');
@@ -37,7 +40,7 @@ function cargarCatalogo() {
                 img.className = 'plantilla-img';
 
                 img.addEventListener('click', () => {
-                    // Redirige a viewPlantilla.html con el nombre de la imagen como parámetro
+                    localStorage.setItem("modoPlantilla", "nueva");
                     window.location.href = '../viewPlantilla/index.html?imagen=' + encodeURIComponent(nombreImagen);
                 });
 
@@ -83,12 +86,18 @@ function cargarCreaciones() {
             }
 
             propias.forEach(creacion => {
-                // Determinar la carpeta según el tipo
                 const carpeta = creacion.tipo === 'dibujo' ? 'Dibujo' : 'ImagenesUso';
-                // Si imagenUrl ya empieza con '/', úsala tal cual; si no, arma la ruta
-                const imagenUrl = creacion.imagenUrl && creacion.imagenUrl.startsWith('/')
-                    ? `http://localhost:5289${creacion.imagenUrl}`
-                    : `http://localhost:5289/${carpeta}/${creacion.imagenUrl}`;
+                const nombreImagen = creacion.imagenUrl.split('/').pop();
+                
+                // URL de imagen según el tipo
+                let imagenUrl;
+                if (creacion.tipo === 'dibujo') {
+                    // Para dibujos, usar la carpeta Dibujo directamente
+                    imagenUrl = `http://localhost:5289/Dibujo/${nombreImagen}?t=${Date.now()}`;
+                } else {
+                    // Para plantillas, usar el endpoint sin caché
+                    imagenUrl = `http://localhost:5289/api/imagen/imagen-sin-cache?nombreImagen=${encodeURIComponent(nombreImagen)}&t=${Date.now()}`;
+                }
 
                 const div = document.createElement('div');
                 div.style.display = 'inline-block';
@@ -96,16 +105,34 @@ function cargarCreaciones() {
                 div.style.border = '1px solid #ccc';
                 div.style.padding = '10px';
                 div.style.textAlign = 'center';
-                div.innerHTML = `
-                <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" style="width:100px;"><br>
-                <span>${creacion.nombreCreacion}</span><br>
-                <span>Puntaje: ${creacion.puntaje ?? ''}</span><br>
-                <button onclick="eliminarCreacion('${creacion.tipo}','${creacion.nombreCreacion}')">Eliminar</button>
-                <select onchange="calificarCreacion('${creacion.tipo}','${creacion.nombreCreacion}', this.value)">
-                    <option value="0">Calificar</option>
-                    ${[1, 2, 3, 4, 5].map(i => `<option value="${i}" ${creacion.puntaje == i ? 'selected' : ''}>${i} ⭐</option>`).join('')}
-                </select>
-            `;
+                
+                // HTML diferente según el tipo
+                if (creacion.tipo === 'dibujo') {
+                    // Los dibujos no son editables, solo se muestran
+                    div.innerHTML = `
+                        <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" style="width:100px;cursor:default">
+                        <span>${creacion.nombreCreacion}</span><br>
+                        <span>Puntaje: ${creacion.puntaje ?? ''}</span><br>
+                        <button onclick="eliminarCreacion('${creacion.tipo}','${nombreImagen}')">Eliminar</button>
+                        <select onchange="calificarCreacion('${creacion.tipo}','${creacion.imagenUrl}', this.value)">
+                        <option value="0">Calificar</option>
+                            ${[1, 2, 3, 4, 5].map(i => `<option value="${i}" ${creacion.puntaje == i ? 'selected' : ''}>${i} ⭐</option>`).join('')}
+                        </select>
+                    `;
+                } else {
+                    // Las plantillas son editables
+                    div.innerHTML = `
+                        <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" style="width:100px;cursor:pointer"
+                        onclick="abrirPlantillaEditar('${nombreImagen}')">
+                        <span>${creacion.nombreCreacion}</span><br>
+                        <span>Puntaje: ${creacion.puntaje ?? ''}</span><br>
+                        <button onclick="eliminarCreacion('${creacion.tipo}','${nombreImagen}')">Eliminar</button>
+                        <select onchange="calificarCreacion('${creacion.tipo}','${creacion.imagenUrl}', this.value)">
+                        <option value="0">Calificar</option>
+                            ${[1, 2, 3, 4, 5].map(i => `<option value="${i}" ${creacion.puntaje == i ? 'selected' : ''}>${i} ⭐</option>`).join('')}
+                        </select>
+                    `;
+                }
                 gridCreaciones.appendChild(div);
             });
         })
@@ -125,15 +152,13 @@ function eliminarCreacion(tipo, nombre) {
 }
 
 // Calificar una creación (plantilla o dibujo)
-function calificarCreacion(tipo, nombre, calificacion) {
+function calificarCreacion(tipo, imagenUrl, calificacion) {
     const payload = {
         tipo: tipo,
-        nombre: nombre,
+        imagenUrl: imagenUrl, 
         idCreador: usuario.id || usuario.uuid,
         calificacion: parseInt(calificacion)
     };
-    console.log('Payload enviado:', payload);
-
     fetch('http://localhost:5289/api/creaciones/calificar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -142,8 +167,24 @@ function calificarCreacion(tipo, nombre, calificacion) {
     .then(() => cargarCreaciones());
 }
 
+function abrirPlantillaEditar(nombreImagen) {
+    localStorage.setItem("modoPlantilla", "editar");
+    window.location.href = '../viewPlantilla/index.html?imagen=' + encodeURIComponent(nombreImagen);
+}
+
 // Inicialización
 window.addEventListener('DOMContentLoaded', () => {
     cargarCatalogo();
     cargarCreaciones();
+    
+    // Si hay parámetro de reload, forzar recarga de creaciones
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('reload')) {
+        // Limpiar el parámetro de la URL
+        window.history.replaceState({}, document.title, window.location.pathname);
+        // Recargar las creaciones después de un pequeño delay
+        setTimeout(() => {
+            cargarCreaciones();
+        }, 100);
+    }
 });

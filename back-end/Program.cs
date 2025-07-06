@@ -36,12 +36,25 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/front-end"
 });
 
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "..", "back-end")),
+    RequestPath = "/back-end"
+});
 // Habilita archivos estáticos desde la carpeta ImagenesUso
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
         Path.Combine(Directory.GetCurrentDirectory(), "Datos", "ImagenesUso")),
-    RequestPath = "/ImagenesUso"
+    RequestPath = "/ImagenesUso",
+    OnPrepareResponse = ctx =>
+    {
+        // Headers para evitar caché en imágenes de ImagenesUso
+        ctx.Context.Response.Headers.Append("Cache-Control", "no-cache, no-store, must-revalidate");
+        ctx.Context.Response.Headers.Append("Pragma", "no-cache");
+        ctx.Context.Response.Headers.Append("Expires", "0");
+    }
 });
 
 // Habilita archivos estáticos desde la carpeta Dibujo
@@ -58,6 +71,8 @@ app.UseStaticFiles(new StaticFileOptions
         Path.Combine(Directory.GetCurrentDirectory(), "resources")),
     RequestPath = "/resources"
 });
+
+
 
 app.UseAuthorization();
 
