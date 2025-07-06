@@ -99,31 +99,23 @@ function cargarCreaciones() {
                 div.style.padding = '10px';
                 div.style.textAlign = 'center';
 
-                if (creacion.tipo === 'dibujo') {
-                    div.innerHTML = `
-                        <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" style="width:100px;cursor:default"><br>
-                        <span>${creacion.nombreCreacion}</span><br>
-                        <span>Puntaje: ${creacion.puntaje ?? ''}</span><br>
-                        <button onclick="eliminarCreacion('${creacion.tipo}','${nombreImagen}')">Eliminar</button>
-                        <button onclick="editarCreacionDibujo('${creacion.tipo}','${creacion.nombreCreacion}')">Editar</button>
-                        <select onchange="calificarCreacion('${creacion.tipo}','${creacion.imagenUrl}', this.value)">
-                            <option value="0">Calificar</option>
-                            ${[1, 2, 3, 4, 5].map(i => `<option value="${i}" ${creacion.puntaje == i ? 'selected' : ''}>${i} ⭐</option>`).join('')}
-                        </select>
-                    `;
-                } else {
-                    div.innerHTML = `
-                        <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" style="width:100px;cursor:pointer"
-                        onclick="abrirPlantillaEditar('${nombreImagen}')"><br>
-                        <span>${creacion.nombreCreacion}</span><br>
-                        <span>Puntaje: ${creacion.puntaje ?? ''}</span><br>
-                        <button onclick="eliminarCreacion('${creacion.tipo}','${nombreImagen}')">Eliminar</button>
-                        <select onchange="calificarCreacion('${creacion.tipo}','${creacion.imagenUrl}', this.value)">
-                            <option value="0">Calificar</option>
-                            ${[1, 2, 3, 4, 5].map(i => `<option value="${i}" ${creacion.puntaje == i ? 'selected' : ''}>${i} ⭐</option>`).join('')}
-                        </select>
-                    `;
-                }
+                div.innerHTML = `
+                    <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" id="img-${creacion.tipo}-${nombreImagen}" style="width:100px;cursor:${creacion.tipo === 'dibujo' ? 'default' : 'pointer'}" ${creacion.tipo === 'plantilla' ? `onclick="abrirPlantillaEditar('${nombreImagen}')"` : ''}><br>
+                    <span>${creacion.nombreCreacion}</span><br>
+                    <span>Puntaje: ${creacion.puntaje ?? ''}</span><br>
+                    <button onclick="eliminarCreacion('${creacion.tipo}','${nombreImagen}')">Eliminar</button>
+                    ${creacion.tipo === 'dibujo' ? `<button onclick="editarCreacionDibujo('${creacion.tipo}','${creacion.nombreCreacion}')">Editar</button>` : ''}
+                    <select onchange="descargarCreacion('${imagenUrl}', this.value, '${creacion.nombreCreacion}')">
+                        <option value="">Descargar como...</option>
+                        <option value="png">PNG</option>
+                        <option value="jpg">JPG</option>
+                        <option value="webp">WebP</option>
+                    </select>
+                    <select onchange="calificarCreacion('${creacion.tipo}','${creacion.imagenUrl}', this.value)">
+                        <option value="0">Calificar</option>
+                        ${[1, 2, 3, 4, 5].map(i => `<option value="${i}" ${creacion.puntaje == i ? 'selected' : ''}>${i} ⭐</option>`).join('')}
+                    </select>
+                `;
                 gridCreaciones.appendChild(div);
             });
         })
@@ -133,7 +125,40 @@ function cargarCreaciones() {
         });
 }
 
-// Eliminar una creación (plantilla o dibujo)
+// --- Descargar en formato seleccionado (PNG, JPG, WebP) ---
+function descargarCreacion(url, formato, nombreDescarga) {
+    if (!formato) return;
+
+    const img = new window.Image();
+    img.crossOrigin = "Anonymous";
+    img.src = url;
+
+    img.onload = function () {
+        const canvas = document.createElement('canvas');
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0);
+
+        let mime = 'image/png';
+        let ext = 'png';
+        if (formato === 'jpg' || formato === 'jpeg') {
+            mime = 'image/jpeg'; ext = 'jpg';
+        } else if (formato === 'webp') {
+            mime = 'image/webp'; ext = 'webp';
+        }
+        const link = document.createElement('a');
+        link.href = canvas.toDataURL(mime);
+        link.download = `${nombreDescarga}.${ext}`;
+        link.click();
+    };
+
+    img.onerror = function () {
+        alert('No se pudo cargar la imagen para descargar.');
+    };
+}
+
+// --- Eliminar una creación (plantilla o dibujo) ---
 function eliminarCreacion(tipo, nombre) {
     if (!confirm('¿Eliminar esta creación?')) return;
     fetch(`http://localhost:5289/api/creaciones/${tipo}/${encodeURIComponent(nombre)}`, {
@@ -142,7 +167,7 @@ function eliminarCreacion(tipo, nombre) {
         .then(() => cargarCreaciones());
 }
 
-// Calificar una creación (plantilla o dibujo)
+// --- Calificar una creación (plantilla o dibujo) ---
 function calificarCreacion(tipo, imagenUrl, calificacion) {
     const payload = {
         tipo: tipo,
@@ -158,13 +183,13 @@ function calificarCreacion(tipo, imagenUrl, calificacion) {
     .then(() => cargarCreaciones());
 }
 
-// Editar plantilla (redirige a edición de plantilla)
+// --- Editar plantilla (redirige a edición de plantilla) ---
 function abrirPlantillaEditar(nombreImagen) {
     localStorage.setItem("modoPlantilla", "editar");
     window.location.href = '../viewPlantilla/index.html?imagen=' + encodeURIComponent(nombreImagen);
 }
 
-// Editar dibujo (redirige a edición de dibujo)
+// --- Editar dibujo (redirige a edición de dibujo) ---
 function editarCreacionDibujo(tipo, nombre) {
     if (tipo !== 'dibujo') return;
     const creaciones = JSON.parse(localStorage.getItem('creacionesCatalogo') || '[]');
@@ -187,13 +212,13 @@ function editarCreacionDibujo(tipo, nombre) {
     window.location.href = '../viewDibujo/index.html';
 }
 
-// Abrir canvas vacío para crear dibujo nuevo
+// --- Abrir canvas vacío para crear dibujo nuevo ---
 function abrirCanvasVacio() {
     localStorage.removeItem('imagenAEditar');
     window.location.href = '../viewDibujo/index.html';
 }
 
-// Inicialización
+// --- Inicialización ---
 window.addEventListener('DOMContentLoaded', () => {
     cargarCatalogo();
     cargarCreaciones();

@@ -504,3 +504,44 @@ C:\Users\Paola De Sousa\Downloads\localstorage listo\localstorage listo\back-end
 C:\Users\Paola De Sousa\Downloads\localstorage listo\localstorage listo\back-end\obj\Debug\net9.0\back-end.pdb
 C:\Users\Paola De Sousa\Downloads\localstorage listo\localstorage listo\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
 C:\Users\Paola De Sousa\Downloads\localstorage listo\localstorage listo\back-end\obj\Debug\net9.0\ref\back-end.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\appsettings.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Datos\Dibujo\dibujos.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Datos\plantilla.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Datos\usuarios.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\back-end.staticwebassets.endpoints.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\back-end.exe
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\back-end.deps.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\back-end.runtimeconfig.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\back-end.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\back-end.pdb
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.sourcelink.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\scopedcss\bundle\back-end.styles.css
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.csproj.Up2Date
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\refint\back-end.dll
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.pdb
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\back-end.genruntimeconfig.cache
+C:\Users\danie\OneDrive\Documentos\Proyecto IS\ArtInMotion\back-end\obj\Debug\net9.0\ref\back-end.dll
