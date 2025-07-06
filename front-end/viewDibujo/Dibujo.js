@@ -12,6 +12,72 @@ const $eraserBtn = $('#eraser-btn');
 const $rectangleBtn = $('#rectangle-btn');
 const $ellipseBtn = $('#ellipse-btn');
 
+// Función para cargar imagen desde localStorage
+function cargarImagenParaEditar() {
+    const imagenAEditar = localStorage.getItem('imagenAEditar');
+    if (imagenAEditar && imagenAEditar !== 'null' && imagenAEditar !== 'undefined') {
+        try {
+            const imagen = JSON.parse(imagenAEditar);
+            console.log('Intentando cargar imagen para editar:', imagen);
+            
+            // Verificar que el canvas esté listo
+            if (!$canvas || !ctx) {
+                console.error('Canvas no está listo');
+                return;
+            }
+            
+            const img = new Image();
+            img.onload = function() {
+                console.log('Imagen cargada exitosamente, dimensiones:', img.width, 'x', img.height);
+                console.log('Canvas dimensiones:', $canvas.width, 'x', $canvas.height);
+                
+                // Limpiar el canvas
+                ctx.clearRect(0, 0, $canvas.width, $canvas.height);
+                
+                // Calcular dimensiones para mantener proporción
+                const canvasAspect = $canvas.width / $canvas.height;
+                const imgAspect = img.width / img.height;
+                
+                let drawWidth, drawHeight, offsetX = 0, offsetY = 0;
+                
+                if (imgAspect > canvasAspect) {
+                    // Imagen más ancha que el canvas
+                    drawWidth = $canvas.width;
+                    drawHeight = $canvas.width / imgAspect;
+                    offsetY = ($canvas.height - drawHeight) / 2;
+                } else {
+                    // Imagen más alta que el canvas
+                    drawHeight = $canvas.height;
+                    drawWidth = $canvas.height * imgAspect;
+                    offsetX = ($canvas.width - drawWidth) / 2;
+                }
+                
+                // Dibujar la imagen en el canvas centrada
+                ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
+                console.log('Imagen dibujada en el canvas exitosamente');
+                
+                // Limpiar localStorage después de cargar la imagen
+                localStorage.removeItem('imagenAEditar');
+            };
+            img.onerror = function(error) {
+                console.error('Error al cargar la imagen:', imagen.url, error);
+                alert('Error al cargar la imagen para editar. Verifica la consola para más detalles.');
+                // Limpiar localStorage en caso de error
+                localStorage.removeItem('imagenAEditar');
+            };
+            
+            // Cargar la imagen
+            img.src = imagen.url;
+        } catch (error) {
+            console.error('Error al parsear la imagen del localStorage:', error);
+            // Limpiar localStorage en caso de error
+            localStorage.removeItem('imagenAEditar');
+        }
+    } else {
+        console.log('No hay imagen para editar - Canvas vacío listo para dibujar');
+    }
+}
+
 
 // Verifica que todos los elementos existen
 if (!$canvas || !ctx || !$colorPicker || !$lineWidthSlider || !$drawBtn || !$eraserBtn || !$rectangleBtn || !$ellipseBtn) {
@@ -144,6 +210,10 @@ if (!$canvas || !ctx || !$colorPicker || !$lineWidthSlider || !$drawBtn || !$era
     ctx.globalCompositeOperation = 'source-over';
   });
 
+  // Cargar imagen para editar si existe en localStorage (después de configurar todo)
+  setTimeout(() => {
+    cargarImagenParaEditar();
+  }, 100);
 
 }
 

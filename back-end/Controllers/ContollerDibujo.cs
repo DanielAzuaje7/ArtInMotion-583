@@ -4,12 +4,6 @@ using Microsoft.AspNetCore.Cors;
 using System.IO;
 
 
-public class GuardarSimpleRequest
-{
-    public string Nombre { get; set; }
-    public string ImagenBase64 { get; set; }
-}
-
 [ApiController]
 [Route("api/dibujo")]
 [EnableCors("PermitirTodo")]
@@ -85,4 +79,9 @@ private string extraerUUIDDeNombre(string nombre)
         return partes.Last();
     return "desconocido";
 }
+}
+public class GuardarSimpleRequest
+{
+    public string Nombre { get; set; }
+    public string ImagenBase64 { get; set; }
 }

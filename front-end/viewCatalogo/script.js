@@ -8,15 +8,10 @@ let usuario = null;
 
 if (usuarioActivo && usuarioActivo !== "undefined") {
     usuario = JSON.parse(usuarioActivo);
-    // Ahora puedes usar el objeto usuario
     console.log("Usuario logueado:", usuario);
 } else {
-    // No hay usuario logueado
     console.log("No hay usuario en sesión");
 }
-
-
-
 
 // --- Catálogo de Plantillas ---
 function cargarCatalogo() {
@@ -32,7 +27,6 @@ function cargarCatalogo() {
             }
 
             imagenes.forEach(url => {
-                // Extraer solo el nombre de la imagen
                 const nombreImagen = url.split('/').pop();
                 const img = document.createElement('img');
                 img.src = url.startsWith('/') ? 'http://localhost:5289' + url : url;
@@ -58,27 +52,26 @@ function cargarCreaciones() {
     const gridCreaciones = document.getElementById('grid-creaciones');
     gridCreaciones.innerHTML = '';
 
-    // Si no hay usuario logueado, muestra mensaje y termina
     if (!usuario || !(usuario.id || usuario.uuid)) {
         gridCreaciones.innerHTML = '<p>Inicia sesión para ver tus creaciones.</p>';
         return;
     }
 
-    // Traer plantillas y dibujos en paralelo
     Promise.all([
         fetch(API_CREACIONES_PLANTILLAS).then(res => res.json()),
         fetch(API_CREACIONES_DIBUJOS).then(res => res.json())
     ])
         .then(([plantillas, dibujos]) => {
-            // Unir ambos arrays, agregando el tipo
             const todas = [
                 ...plantillas.map(p => ({ ...p, tipo: 'plantilla' })),
                 ...dibujos.map(d => ({ ...d, tipo: 'dibujo' }))
             ];
 
-            // Filtrar solo las creaciones del usuario activo
             const idUsuario = usuario.id || usuario.uuid;
             const propias = todas.filter(c => c.idCreador === idUsuario);
+
+            // Guardar para edición de dibujos desde localStorage
+            localStorage.setItem('creacionesCatalogo', JSON.stringify(propias));
 
             if (propias.length === 0) {
                 gridCreaciones.innerHTML = '<p>No hay creaciones guardadas para este usuario.</p>';
@@ -87,16 +80,16 @@ function cargarCreaciones() {
 
             propias.forEach(creacion => {
                 const carpeta = creacion.tipo === 'dibujo' ? 'Dibujo' : 'ImagenesUso';
-                const nombreImagen = creacion.imagenUrl.split('/').pop();
-                
-                // URL de imagen según el tipo
+                const nombreImagen = creacion.imagenUrl ? creacion.imagenUrl.split('/').pop() : '';
                 let imagenUrl;
                 if (creacion.tipo === 'dibujo') {
-                    // Para dibujos, usar la carpeta Dibujo directamente
-                    imagenUrl = `http://localhost:5289/Dibujo/${nombreImagen}?t=${Date.now()}`;
+                    imagenUrl = creacion.imagenUrl && creacion.imagenUrl.startsWith('/')
+                        ? `http://localhost:5289${creacion.imagenUrl}?t=${Date.now()}`
+                        : `http://localhost:5289/Dibujo/${nombreImagen}?t=${Date.now()}`;
                 } else {
-                    // Para plantillas, usar el endpoint sin caché
-                    imagenUrl = `http://localhost:5289/api/imagen/imagen-sin-cache?nombreImagen=${encodeURIComponent(nombreImagen)}&t=${Date.now()}`;
+                    imagenUrl = creacion.imagenUrl && creacion.imagenUrl.startsWith('/')
+                        ? `http://localhost:5289${creacion.imagenUrl}?t=${Date.now()}`
+                        : `http://localhost:5289/api/imagen/imagen-sin-cache?nombreImagen=${encodeURIComponent(nombreImagen)}&t=${Date.now()}`;
                 }
 
                 const div = document.createElement('div');
@@ -105,30 +98,28 @@ function cargarCreaciones() {
                 div.style.border = '1px solid #ccc';
                 div.style.padding = '10px';
                 div.style.textAlign = 'center';
-                
-                // HTML diferente según el tipo
+
                 if (creacion.tipo === 'dibujo') {
-                    // Los dibujos no son editables, solo se muestran
                     div.innerHTML = `
-                        <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" style="width:100px;cursor:default">
+                        <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" style="width:100px;cursor:default"><br>
                         <span>${creacion.nombreCreacion}</span><br>
                         <span>Puntaje: ${creacion.puntaje ?? ''}</span><br>
                         <button onclick="eliminarCreacion('${creacion.tipo}','${nombreImagen}')">Eliminar</button>
+                        <button onclick="editarCreacionDibujo('${creacion.tipo}','${creacion.nombreCreacion}')">Editar</button>
                         <select onchange="calificarCreacion('${creacion.tipo}','${creacion.imagenUrl}', this.value)">
-                        <option value="0">Calificar</option>
+                            <option value="0">Calificar</option>
                             ${[1, 2, 3, 4, 5].map(i => `<option value="${i}" ${creacion.puntaje == i ? 'selected' : ''}>${i} ⭐</option>`).join('')}
                         </select>
                     `;
                 } else {
-                    // Las plantillas son editables
                     div.innerHTML = `
                         <img src="${imagenUrl}" alt="${creacion.nombreCreacion}" style="width:100px;cursor:pointer"
-                        onclick="abrirPlantillaEditar('${nombreImagen}')">
+                        onclick="abrirPlantillaEditar('${nombreImagen}')"><br>
                         <span>${creacion.nombreCreacion}</span><br>
                         <span>Puntaje: ${creacion.puntaje ?? ''}</span><br>
                         <button onclick="eliminarCreacion('${creacion.tipo}','${nombreImagen}')">Eliminar</button>
                         <select onchange="calificarCreacion('${creacion.tipo}','${creacion.imagenUrl}', this.value)">
-                        <option value="0">Calificar</option>
+                            <option value="0">Calificar</option>
                             ${[1, 2, 3, 4, 5].map(i => `<option value="${i}" ${creacion.puntaje == i ? 'selected' : ''}>${i} ⭐</option>`).join('')}
                         </select>
                     `;
@@ -155,7 +146,7 @@ function eliminarCreacion(tipo, nombre) {
 function calificarCreacion(tipo, imagenUrl, calificacion) {
     const payload = {
         tipo: tipo,
-        imagenUrl: imagenUrl, 
+        imagenUrl: imagenUrl,
         idCreador: usuario.id || usuario.uuid,
         calificacion: parseInt(calificacion)
     };
@@ -167,22 +158,50 @@ function calificarCreacion(tipo, imagenUrl, calificacion) {
     .then(() => cargarCreaciones());
 }
 
+// Editar plantilla (redirige a edición de plantilla)
 function abrirPlantillaEditar(nombreImagen) {
     localStorage.setItem("modoPlantilla", "editar");
     window.location.href = '../viewPlantilla/index.html?imagen=' + encodeURIComponent(nombreImagen);
+}
+
+// Editar dibujo (redirige a edición de dibujo)
+function editarCreacionDibujo(tipo, nombre) {
+    if (tipo !== 'dibujo') return;
+    const creaciones = JSON.parse(localStorage.getItem('creacionesCatalogo') || '[]');
+    const creacion = creaciones.find(c => c.tipo === tipo && c.nombreCreacion === nombre);
+    if (!creacion) {
+        alert('No se encontró la creación');
+        return;
+    }
+    const carpeta = 'Dibujo';
+    const imagenUrl = creacion.imagenUrl && creacion.imagenUrl.startsWith('/')
+        ? `http://localhost:5289${creacion.imagenUrl}`
+        : `http://localhost:5289/${carpeta}/${creacion.imagenUrl}`;
+
+    const imagenAEditar = {
+        url: imagenUrl,
+        nombre: nombre,
+        tipo: tipo
+    };
+    localStorage.setItem('imagenAEditar', JSON.stringify(imagenAEditar));
+    window.location.href = '../viewDibujo/index.html';
+}
+
+// Abrir canvas vacío para crear dibujo nuevo
+function abrirCanvasVacio() {
+    localStorage.removeItem('imagenAEditar');
+    window.location.href = '../viewDibujo/index.html';
 }
 
 // Inicialización
 window.addEventListener('DOMContentLoaded', () => {
     cargarCatalogo();
     cargarCreaciones();
-    
+
     // Si hay parámetro de reload, forzar recarga de creaciones
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has('reload')) {
-        // Limpiar el parámetro de la URL
         window.history.replaceState({}, document.title, window.location.pathname);
-        // Recargar las creaciones después de un pequeño delay
         setTimeout(() => {
             cargarCreaciones();
         }, 100);
