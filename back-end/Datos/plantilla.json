@@ -1,1 +1,245 @@
-[{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"flores.jpg","IdCreador":"95920d65-dc9a-4ce6-9b83-fcc95235918d","Puntaje":2,"ImagenUrl":"flores_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"helado.jpg","IdCreador":"95920d65-dc9a-4ce6-9b83-fcc95235918d","Puntaje":2,"ImagenUrl":"helado_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"perrito.jpg","IdCreador":"95920d65-dc9a-4ce6-9b83-fcc95235918d","Puntaje":5,"ImagenUrl":"perrito_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"osito.jpg","IdCreador":"95920d65-dc9a-4ce6-9b83-fcc95235918d","Puntaje":4,"ImagenUrl":"osito_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"dinosaurio.jpg","IdCreador":"95920d65-dc9a-4ce6-9b83-fcc95235918d","Puntaje":1,"ImagenUrl":"dinosaurio_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"helado.jpg","IdCreador":"905ab907-2bef-4d30-bf7e-e3c52f31be74","Puntaje":1,"ImagenUrl":"helado_restaurada_905ab907-2bef-4d30-bf7e-e3c52f31be74.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"perrito.jpg","IdCreador":"905ab907-2bef-4d30-bf7e-e3c52f31be74","Puntaje":1,"ImagenUrl":"perrito_restaurada_905ab907-2bef-4d30-bf7e-e3c52f31be74.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff","#6e0202","#dc0404","#054e04","#7b680a"],"NombreCreacion":"helado.jpg","IdCreador":"5359d09c-13d3-4dea-87f3-3e6d9d7413fd","Puntaje":1,"ImagenUrl":"helado_restaurada_5359d09c-13d3-4dea-87f3-3e6d9d7413fd_20250706013037766.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff","#1dd110"],"NombreCreacion":"flores.jpg","IdCreador":"ab44bb00-d7c6-4af0-b6cf-4d70d918b31a","Puntaje":5,"ImagenUrl":"flores_restaurada_ab44bb00-d7c6-4af0-b6cf-4d70d918b31a_20250708015109767.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff","#0db1f8","#dc2e2e","#e2d0d0","#e81111"],"NombreCreacion":"subida2.png","IdCreador":"f7fed42e-086f-4383-b47a-a82d424bc463","Puntaje":1,"ImagenUrl":"subida2_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023133207.png"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"perrito.jpg","IdCreador":"f7fed42e-086f-4383-b47a-a82d424bc463","Puntaje":1,"ImagenUrl":"perrito_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023251976.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"subida1.jpg","IdCreador":"f7fed42e-086f-4383-b47a-a82d424bc463","Puntaje":1,"ImagenUrl":"subida1_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023303212.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"subida3.jpg","IdCreador":"f7fed42e-086f-4383-b47a-a82d424bc463","Puntaje":1,"ImagenUrl":"subida3_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023319904.jpg"},{"PaletaColores":["#ff0000","#00ff00","#0000ff","#ffcc00","#ff00ff"],"NombreCreacion":"subida3.jpg","IdCreador":"f7fed42e-086f-4383-b47a-a82d424bc463","Puntaje":1,"ImagenUrl":"subida3_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023432200.jpg"}]
+[
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "flores.jpg",
+    "IdCreador": "95920d65-dc9a-4ce6-9b83-fcc95235918d",
+    "Puntaje": 2,
+    "ImagenUrl": "flores_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "helado.jpg",
+    "IdCreador": "95920d65-dc9a-4ce6-9b83-fcc95235918d",
+    "Puntaje": 2,
+    "ImagenUrl": "helado_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "perrito.jpg",
+    "IdCreador": "95920d65-dc9a-4ce6-9b83-fcc95235918d",
+    "Puntaje": 5,
+    "ImagenUrl": "perrito_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "osito.jpg",
+    "IdCreador": "95920d65-dc9a-4ce6-9b83-fcc95235918d",
+    "Puntaje": 4,
+    "ImagenUrl": "osito_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "dinosaurio.jpg",
+    "IdCreador": "95920d65-dc9a-4ce6-9b83-fcc95235918d",
+    "Puntaje": 1,
+    "ImagenUrl": "dinosaurio_restaurada_95920d65-dc9a-4ce6-9b83-fcc95235918d.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "helado.jpg",
+    "IdCreador": "905ab907-2bef-4d30-bf7e-e3c52f31be74",
+    "Puntaje": 1,
+    "ImagenUrl": "helado_restaurada_905ab907-2bef-4d30-bf7e-e3c52f31be74.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "perrito.jpg",
+    "IdCreador": "905ab907-2bef-4d30-bf7e-e3c52f31be74",
+    "Puntaje": 1,
+    "ImagenUrl": "perrito_restaurada_905ab907-2bef-4d30-bf7e-e3c52f31be74.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff",
+      "#6e0202",
+      "#dc0404",
+      "#054e04",
+      "#7b680a"
+    ],
+    "NombreCreacion": "helado.jpg",
+    "IdCreador": "5359d09c-13d3-4dea-87f3-3e6d9d7413fd",
+    "Puntaje": 1,
+    "ImagenUrl": "helado_restaurada_5359d09c-13d3-4dea-87f3-3e6d9d7413fd_20250706013037766.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff",
+      "#1dd110"
+    ],
+    "NombreCreacion": "flores.jpg",
+    "IdCreador": "ab44bb00-d7c6-4af0-b6cf-4d70d918b31a",
+    "Puntaje": 5,
+    "ImagenUrl": "flores_restaurada_ab44bb00-d7c6-4af0-b6cf-4d70d918b31a_20250708015109767.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff",
+      "#0db1f8",
+      "#dc2e2e",
+      "#e2d0d0",
+      "#e81111"
+    ],
+    "NombreCreacion": "subida2.png",
+    "IdCreador": "f7fed42e-086f-4383-b47a-a82d424bc463",
+    "Puntaje": 1,
+    "ImagenUrl": "subida2_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023133207.png"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "perrito.jpg",
+    "IdCreador": "f7fed42e-086f-4383-b47a-a82d424bc463",
+    "Puntaje": 1,
+    "ImagenUrl": "perrito_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023251976.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "subida1.jpg",
+    "IdCreador": "f7fed42e-086f-4383-b47a-a82d424bc463",
+    "Puntaje": 1,
+    "ImagenUrl": "subida1_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023303212.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "subida3.jpg",
+    "IdCreador": "f7fed42e-086f-4383-b47a-a82d424bc463",
+    "Puntaje": 1,
+    "ImagenUrl": "subida3_restaurada_f7fed42e-086f-4383-b47a-a82d424bc463_20250708023432200.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "helado.jpg",
+    "IdCreador": "24b771c0-6299-43e4-9918-43ec220f5ce3",
+    "Puntaje": 1,
+    "ImagenUrl": "helado_restaurada_24b771c0-6299-43e4-9918-43ec220f5ce3_20250708031018487.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "helado.jpg",
+    "IdCreador": "ab44bb00-d7c6-4af0-b6cf-4d70d918b31a",
+    "Puntaje": 1,
+    "ImagenUrl": "helado_restaurada_ab44bb00-d7c6-4af0-b6cf-4d70d918b31a_20250708031057831.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "subida3.jpg",
+    "IdCreador": ".",
+    "Puntaje": 1,
+    "ImagenUrl": "subida3_restaurada_._20250708031216306.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "perrito.jpg",
+    "IdCreador": ".",
+    "Puntaje": 1,
+    "ImagenUrl": "perrito_restaurada_._20250708031330229.jpg"
+  },
+  {
+    "PaletaColores": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffcc00",
+      "#ff00ff"
+    ],
+    "NombreCreacion": "osito.jpg",
+    "IdCreador": "3fb86d5c-010d-42c5-a51e-32f7e4b637ea",
+    "Puntaje": 1,
+    "ImagenUrl": "osito_restaurada_3fb86d5c-010d-42c5-a51e-32f7e4b637ea_20250708031359361.jpg"
+  }
+]

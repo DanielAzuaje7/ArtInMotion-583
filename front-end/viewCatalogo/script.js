@@ -371,13 +371,13 @@ function editarCreacionDibujo(tipo, nombre) {
         tipo: tipo
     };
     localStorage.setItem('imagenAEditar', JSON.stringify(imagenAEditar));
-    window.location.href = 'http://localhost:5289/front-end/viewCatalogo/index.html';
+    window.location.href = 'http://localhost:5289/front-end/viewDibujo/index.html';
 }
 
 // --- Abrir canvas vacío para crear dibujo nuevo ---
 function abrirCanvasVacio() {
     localStorage.removeItem('imagenAEditar');
-    window.location.href = 'http://localhost:5289/front-end/viewCatalogo/index.html';
+    window.location.href = 'http://localhost:5289/front-end/viewDibujo/index.html';
 }
 
 // --- Inicialización ---
