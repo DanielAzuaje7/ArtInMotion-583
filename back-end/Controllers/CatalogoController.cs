@@ -31,7 +31,7 @@ public class CatalogoController : ControllerBase
         if (archivo == null || archivo.Length == 0)
             return BadRequest("No se seleccionó ningún archivo.");
 
-        var extensionesPermitidas = new[] { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+        var extensionesPermitidas = new[] { ".jpg", ".jpeg", ".png"};
         var extension = Path.GetExtension(archivo.FileName).ToLowerInvariant();
         if (!extensionesPermitidas.Contains(extension))
             return BadRequest("Solo se permiten archivos de imagen.");
@@ -67,4 +67,29 @@ public class CatalogoController : ControllerBase
         // Devuelve la URL relativa
         return Ok(new { url = "/Imagenes/" + nombreArchivo });
     }
+
+    // POST: api/catalogo/eliminar
+[HttpPost("eliminar")]
+public IActionResult EliminarPlantilla([FromBody] Dictionary<string, string> data)
+{
+    if (data == null || !data.ContainsKey("NombreImagen") || string.IsNullOrWhiteSpace(data["NombreImagen"]))
+        return BadRequest(new { mensaje = "nombreImagenInvalido" });
+
+    // Seguridad: solo el nombre, sin rutas
+    var nombreArchivo = Path.GetFileName(data["NombreImagen"]);
+    var rutaArchivo = Path.Combine(_rutaImagenes, nombreArchivo);
+
+    if (!System.IO.File.Exists(rutaArchivo))
+        return NotFound(new { mensaje = "imagenNoEncontrada" });
+
+    try
+    {
+        System.IO.File.Delete(rutaArchivo);
+        return Ok(new { mensaje = "imagenEliminada" });
+    }
+    catch (Exception ex)
+    {
+        return StatusCode(500, new { mensaje = "errorEliminandoImagen", detalle = ex.Message });
+    }
+}
 }

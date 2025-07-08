@@ -65,36 +65,6 @@ function llenarHtmlConInfoUsuario (usuario){
   passwordB.innerHTML = `${usuario.contrasena}`;
 }
 
-document.getElementById("volver-dibujo-btn").addEventListener("click", () => {
-  const dibujoPendiente = sessionStorage.getItem("dibujoPendiente");
-  const usuarioActivo = localStorage.getItem("usuarioActivo");
-
-  if (dibujoPendiente && usuarioActivo) {
-    const datos = JSON.parse(dibujoPendiente);
-    const usuario = JSON.parse(usuarioActivo);
-
-    fetch('http://localhost:5289/api/dibujo/guardar-simple', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        nombre: `${datos.nombre}_${usuario.uuid}`,
-        imagenBase64: datos.imagenBase64
-      })
-    })
-    .then(res => res.json())
-    .then(data => {
-      sessionStorage.removeItem("dibujoPendiente");
-      sessionStorage.setItem("dibujoGuardadoExito", data.ruta);
-
-      window.location.href = "http://localhost:5289/front-end/viewCatalogo/index.html";
-    })
-    .catch(err => {
-      alert("Error al guardar el dibujo después del login: " + err.message);
-    });
-  } else {
-    window.location.href = "http://localhost:5289/front-end/viewCatalogo/index.html";
-  }
-});
 
 document.getElementById("cerrar-sesion-btn").addEventListener("click", () => {
   localStorage.setItem("usuarioActivo",null);
