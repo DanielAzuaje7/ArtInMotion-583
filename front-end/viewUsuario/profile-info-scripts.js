@@ -122,12 +122,15 @@ function fetchActualizarUsuario(usuarioParaActualizar){
 }
 
 function fetchEliminarUsuario(usuarioParaEliminar){
+  const usuarioParaEliminarMsg =  { Email: usuarioParaEliminar.email, Nombre: usuarioParaEliminar.nombre, FechaNacimiento: usuarioParaEliminar.fechaNacimiento, Contrasena: usuarioParaEliminar.contrasena, Uuid: usuarioParaEliminar.uuid };
+  console.log(usuarioParaEliminarMsg);
+  console.log(usuario);
   fetch('http://localhost:5289/api/usuarios/eliminar', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(usuarioParaActualizar)
+        body: JSON.stringify(usuarioParaEliminarMsg)
       })
         .then(response => response.json())
         .then(data => {
@@ -261,8 +264,10 @@ document.getElementById('eliminar-perfil-btn').addEventListener('click', functio
   if (confirmado1) {
     const confirmado2 = confirm('Esta es tu última oportunidad. ¿Segurísimo de los segurísimos que quieres eliminar tu perfil?');
     if (confirmado2) {
-      // Aquí va el código para eliminar el perfil
+      fetchEliminarUsuario(usuario);
       alert('Perfil eliminado.');
+      localStorage.setItem("usuarioActivo",null);
+      location.reload();
     } else {
       // El usuario canceló en la segunda confirmación
     }

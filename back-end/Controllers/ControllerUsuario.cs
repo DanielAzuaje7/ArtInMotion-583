@@ -172,9 +172,61 @@ public class UsuariosController : ControllerBase
             return BadRequest(new { mensaje = "incorrectPassword" });
         }
     }
-    
+
     [HttpPost("actualizar")]
-public IActionResult ActualizarUsuario([FromBody] Usuario usuario)
+    public IActionResult ActualizarUsuario([FromBody] Usuario usuario)
+    {
+        List<Usuario> usuarios = new List<Usuario>();
+
+        // Leer todos los usuarios del archivo
+        if (System.IO.File.Exists(rutaUsuarios))
+        {
+            var lineas = System.IO.File.ReadAllLines(rutaUsuarios);
+            foreach (var linea in lineas)
+            {
+                if (!string.IsNullOrWhiteSpace(linea))
+                {
+                    try
+                    {
+                        var u = JsonSerializer.Deserialize<Usuario>(linea);
+                        if (u != null)
+                            usuarios.Add(u);
+                    }
+                    catch
+                    {
+                        // Ignora líneas mal formateadas
+                    }
+                }
+            }
+        }
+
+        // Buscar el usuario por Uuid
+        var usuarioExistente = usuarios.FirstOrDefault(u => u.Uuid == usuario.Uuid);
+
+        if (usuarioExistente == null)
+        {
+            return NotFound(new { mensaje = "userNotFound" });
+        }
+
+        // Actualizar los campos del usuario existente
+        usuarioExistente.Nombre = usuario.Nombre;
+        usuarioExistente.Email = usuario.Email;
+        usuarioExistente.FechaNacimiento = usuario.FechaNacimiento;
+        usuarioExistente.Contrasena = usuario.Contrasena;
+        // Si tienes otros campos, agrégalos aquí
+
+        // Sobrescribir el archivo con la lista actualizada
+        var lineasActualizadas = usuarios
+            .Select(u => JsonSerializer.Serialize(u))
+            .ToArray();
+
+        System.IO.File.WriteAllLines(rutaUsuarios, lineasActualizadas);
+
+        return Ok(new { mensaje = "userSuccessfullyUpdated" });
+    }
+    
+[HttpPost("eliminar")]
+public IActionResult EliminarUsuario([FromBody] Usuario usuario)
 {
     List<Usuario> usuarios = new List<Usuario>();
 
@@ -208,12 +260,8 @@ public IActionResult ActualizarUsuario([FromBody] Usuario usuario)
         return NotFound(new { mensaje = "userNotFound" });
     }
 
-    // Actualizar los campos del usuario existente
-    usuarioExistente.Nombre = usuario.Nombre;
-    usuarioExistente.Email = usuario.Email;
-    usuarioExistente.FechaNacimiento = usuario.FechaNacimiento;
-    usuarioExistente.Contrasena = usuario.Contrasena;
-    // Si tienes otros campos, agrégalos aquí
+    // Eliminar el usuario de la lista
+    usuarios.Remove(usuarioExistente);
 
     // Sobrescribir el archivo con la lista actualizada
     var lineasActualizadas = usuarios
@@ -222,8 +270,9 @@ public IActionResult ActualizarUsuario([FromBody] Usuario usuario)
 
     System.IO.File.WriteAllLines(rutaUsuarios, lineasActualizadas);
 
-    return Ok(new { mensaje = "userSuccessfullyUpdated" });
+    return Ok(new { mensaje = "userSuccessfullyDeleted" });
 }
+
     
 }
 
