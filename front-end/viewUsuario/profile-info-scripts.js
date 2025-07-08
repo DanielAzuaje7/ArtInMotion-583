@@ -104,7 +104,7 @@ document.getElementById("cerrar-sesion-btn").addEventListener("click", () => {
 });
 
 function fetchActualizarUsuario(usuarioParaActualizar){
-  fetch('http://localhost:5289/api/usuarios/actualizar', { // Cambia la URL según tu servidor
+  fetch('http://localhost:5289/api/usuarios/actualizar', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -120,6 +120,43 @@ function fetchActualizarUsuario(usuarioParaActualizar){
           console.error('Error:', error);
         });    
 }
+
+function fetchEliminarUsuario(usuarioParaEliminar){
+  fetch('http://localhost:5289/api/usuarios/eliminar', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(usuarioParaActualizar)
+      })
+        .then(response => response.json())
+        .then(data => {
+          console.log('Respuesta del servidor:', data.mensaje);
+          //handleMessage(data.mensaje);
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });    
+}
+const mensajeError = document.getElementById('msg-error');
+let passwordConfirmer = document.getElementById('password-confirmer');
+let passwordConfirmerDiv = document.getElementById('password-confirmer-div');
+
+document.getElementById('atributes-container').addEventListener('input', function(event) {
+  if (event.target.id === 'password-b-input') {
+    // Validación de contraseña
+    if (event.target.value.length < 8) {
+      mensajeError.style.display = 'inline';
+      mensajeError.innerText = 'La contraseña debe tener 8 caracteres como mínimo';
+    } else {
+      mensajeError.style.display = 'none';
+    }
+    // Mostrar confirmador solo cuando se edita la contraseña
+    passwordConfirmer.style.display = 'inline';
+    passwordConfirmerDiv.style.display = 'inline';
+  }
+});
+
 
 function toInputDateFormat(fechaTexto) {
   // Convierte de DD/MM/YYYY a YYYY-MM-DD
@@ -148,7 +185,9 @@ const fields = [
 
 let isEditing = false;
 let updatedEmail = document.getElementById('email-b');
-document.getElementById("editar-perfil-btn").addEventListener("click", function() {
+document.getElementById("info-items-div").addEventListener("submit", function() {
+  event.preventDefault();
+  let editarPerfilBtn = document.getElementById('editar-perfil-btn');
   if (!isEditing) {
     // Cambiar a modo edición
     fields.forEach(field => {
@@ -156,44 +195,81 @@ document.getElementById("editar-perfil-btn").addEventListener("click", function(
       let value = b.textContent;
       const input = document.createElement("input");
       input.type = field.type;
+      
       if (field.type === "date") {
-        console.log("entro al date!");
-        console.log(value);
-        //console.log(toDisplayDateFormat(value));
+        
         input.value = value;
-        console.log(input.value);
+        
       } else {
-        console.log("normal");
+        
         input.value = value;
       }
       input.id = field.id + "-input";
+      input.required = true;
       b.replaceWith(input);
+      clave = document.getElementById('password-b-input');
+      ;
 });
-    this.textContent = "Guardar";
+    editarPerfilBtn.value = "Guardar";
     isEditing = true;
   } else {
     // Guardar cambios y volver a modo visualización
-    fields.forEach(field => {
-    const input = document.getElementById(field.id + "-input");
-    const b = document.createElement("b");
-    b.className = "b-fillable";
-    b.id = field.id;
-    let value = input.value;
-    if (field.type === "date") {
-      value = toInputDateFormat(value);
-    }
-    b.textContent = value;
-    input.replaceWith(b);
-    });
-    this.textContent = "Editar Perfil";
-    isEditing = false;
     
-    const usuarioActualizadoMsg = { Email: document.getElementById('email-b').textContent, Nombre: document.getElementById('nombre-b').textContent, FechaNacimiento: document.getElementById('fecha-nac-b').textContent, Contrasena: document.getElementById('password-b').textContent, Uuid: usuario.uuid };
-    const usuarioActualizadoJs = { email: document.getElementById('email-b').textContent, nombre: document.getElementById('nombre-b').textContent, fechaNacimiento: document.getElementById('fecha-nac-b').textContent, contrasena: document.getElementById('password-b').textContent, uuid: usuario.uuid };
-    console.log(usuarioActualizadoMsg);
-    fetchActualizarUsuario(usuarioActualizadoMsg);
-    localStorage.setItem('usuarioActivo', JSON.stringify(usuarioActualizadoJs));  
-    console.log(usuarioActivo);
+    if(((clave.value == passwordConfirmer.value)||(passwordConfirmer.style.display=='none'))&&(clave.value.length>=8)){
+      fields.forEach(field => {
+      const input = document.getElementById(field.id + '-input');
+      const b = document.createElement("b");
+      b.className = "b-fillable";
+      b.id = field.id;
+      let value = input.value;
+      if (field.type === "date") {
+        value = toInputDateFormat(value);
+      }
+      b.textContent = value;
+      input.replaceWith(b);
+      });
+      editarPerfilBtn.value = "Editar Perfil";
+      isEditing = false;
+
+      const usuarioActualizadoMsg = { Email: document.getElementById('email-b').textContent, Nombre: document.getElementById('nombre-b').textContent, FechaNacimiento: document.getElementById('fecha-nac-b').textContent, Contrasena: document.getElementById('password-b').textContent, Uuid: usuario.uuid };
+      const usuarioActualizadoJs = { email: document.getElementById('email-b').textContent, nombre: document.getElementById('nombre-b').textContent, fechaNacimiento: document.getElementById('fecha-nac-b').textContent, contrasena: document.getElementById('password-b').textContent, uuid: usuario.uuid };
+      console.log(usuarioActualizadoMsg);
+      fetchActualizarUsuario(usuarioActualizadoMsg);
+      localStorage.setItem('usuarioActivo', JSON.stringify(usuarioActualizadoJs));  
+      //console.log(usuarioActivo);
+      clave = document.getElementById('password-b');
+      //console.log(clave);
+      passwordConfirmer.style.display='none';
+      passwordConfirmer.value='';
+    }else{
+      if(clave.value != passwordConfirmer.value){
+      alert('Las contraseñas no coinciden, por favor, verifica');
+      }
+      if(clave.value <8){
+      alert('La contraseña debe tener mínimo 8 caracteres');
+      }
+    }
+  }
+  
+});
+
+document.getElementById('eliminar-perfil-btn').addEventListener('click', function(event) {
+  event.preventDefault();
+
+  const confirmado1 = confirm('¿Estás seguro de que deseas eliminar tu perfil? Esta acción no se puede deshacer.');
+  
+  if (confirmado1) {
+    const confirmado2 = confirm('Esta es tu última oportunidad. ¿Segurísimo de los segurísimos que quieres eliminar tu perfil?');
+    if (confirmado2) {
+      // Aquí va el código para eliminar el perfil
+      alert('Perfil eliminado.');
+    } else {
+      // El usuario canceló en la segunda confirmación
+    }
+  } else {
+    // El usuario canceló en la primera confirmación
   }
 });
+
+
 

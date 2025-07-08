@@ -16,17 +16,32 @@
   <main id="main">
     <section class="info-container" >
         <h3>Información de perfil</h3>
-        <div id="info-items-div">
-            <p><b class="tb">Nombre:</b><b id="nombre-b" class="b-fillable"></b></p>
-            <p><b class="tb">Correo electrónico:</b><b id="email-b" class="b-fillable"></b></p>
-            <p><b class="tb">Fecha de nacimiento:</b><b id="fecha-nac-b" class="b-fillable"></b></p>
-            <p><b class="tb">Contraseña:</b><b id="password-b" class="b-fillable"></b></p>
+        <form id="info-items-div">
+          <div id="atributes-container">
+            <p><b class="tb">Nombre:</b></p>
+            <b id="nombre-b" class="b-fillable"></b>
+            <p><b class="tb">Correo electrónico:</b></p>
+            <b id="email-b" class="b-fillable"></b>
+            <p><b class="tb">Fecha de nacimiento:</b></p>
+            <b id="fecha-nac-b" class="b-fillable"></b>
+            <p><b class="tb">Contraseña:</b></p>
+            <b id="password-b" class="b-fillable"></b>
+            <div id="password-confirmer-div" style="display: none"></div>
+            <input type="password" id="password-confirmer" style="display:none"/>
+            <div></div>
+            <p id="msg-error">.</p>
+          </div>
             <div>
-              <button id="cerrar-sesion-btn">Cerrar Sesión</button>
-              <button id="editar-perfil-btn">Editar Perfil</button>
+              <button id="cerrar-sesion-btn" class="info-action-btn">Cerrar Sesión</button>
+              <input type="submit" value="Editar Perfil" id="editar-perfil-btn" class="info-action-btn"/>
             </div>
-        </div>
-    <section>
+              
+            <div id="eliminar-perfil-btn-container">
+              <button id="eliminar-perfil-btn" class="info-action-btn">Eliminar Perfil</button>
+            </div>
+              
+          </form>
+    </section>
   </main>
 <a id="volver-btn" href="http://localhost:5289/front-end/viewCatalogo/index.html">Volver<a/>
 <button id="volver-dibujo-btn" >Volver al dibujo</button>

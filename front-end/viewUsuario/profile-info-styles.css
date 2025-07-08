@@ -78,7 +78,7 @@ main{
 
 .tb{
   color: white;
-  width: fit-content;
+  width: auto;
   background-color: #000000;
   border-radius: 6px;
   margin-bottom: 12px;
@@ -88,18 +88,69 @@ main{
 
 section div p{
   color: black;
-  width: fit-content;
-  background-color: #188fff;
+  width: 100%;
+  background-color: none;
   border-radius: 6px;
-  margin-bottom: 12px;
   padding-right: 5px;   
 }
+
+#atributes-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Puedes ajustar el ancho relativo de las columnas */
+  gap: 12px 24px; /* Espacio entre filas y columnas */
+  align-items: center;
+  width: fit-content; /* Opcional: para limitar el ancho */
+}
+
 #b-password{
   background-color:gray;
 }
+
 .b-fillable{
-  background-color:none;
-  padding-left: 4px;
+  background-color:#07509e;
+  padding: 0 4px 0 4px;
+  border-radius: 0 4px 4px 4px;
+}
+
+.info-action-btn{
+  border-radius: 5px;
+  align-self: flex-end;
+  padding: 0 4px 0 4px;
+}
+
+.info-action-btn:hover{
+  background-color: lightgray;
+  border-radius: 5px;
+  align-self: flex-end;
+  padding: 0 4px 0 4px;
+}
+
+.info-action-btn:active{
+  background-color: rgb(150, 148, 148);
+  border-radius: 5px;
+  align-self: flex-end;
+  padding: 0 4px 0 4px;
+}
+
+#eliminar-perfil-btn-container{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#eliminar-perfil-btn{
+  color: white;
+  background-color: lightcoral;
+}
+
+#eliminar-perfil-btn:hover{
+  color: white;
+  background-color: rgb(245, 63, 63);
+}
+
+#eliminar-perfil-btn:active{
+  color: white;
+  background-color: rgb(161, 21, 21);
 }
 
 form ul li{
